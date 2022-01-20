@@ -22,6 +22,8 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("35218cf1-9fad-48f9-83c1-0f10c36f6428")]
 
+//cdac knowit group 23....
+
 // Version information for an assembly consists of the following four values:
 //
 //      Major Version
@@ -34,3 +36,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+
+
+
