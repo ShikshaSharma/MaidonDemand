@@ -13,7 +13,7 @@ namespace HR
 
         public Person()
         {
-            fname = "Kritika";
+            fname = "Roshni";
             lname = "Verma";
             email = "qwe@gmail.com";
             contactno = "7876556774";
