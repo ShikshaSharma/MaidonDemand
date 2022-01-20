@@ -14,11 +14,17 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible
-// to COM components.  If you need to access a type in this assembly from
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
 
+<<<<<<< HEAD
+public int add(int a,int b)
+{
+    return a+b;
+}
+public int mul(int a,int b)
+{
+    return a+b;
+}
+=======
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("35218cf1-9fad-48f9-83c1-0f10c36f6428")]
 
@@ -39,3 +45,4 @@ using System.Runtime.InteropServices;
 
 
 
+>>>>>>> c455397dd4848d5884637f493f39c7e97f8f0fe8
