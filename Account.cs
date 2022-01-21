@@ -62,5 +62,10 @@ namespace Banking
         {
             return "New account balance = " + Bal;
         }
+        //after pull changed
+        public override string ToString()
+        {
+            return "New account balance = " + Bal;
+        }
     }
 }
