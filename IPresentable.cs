@@ -10,4 +10,5 @@ namespace HRLib
     {
         void DoPresent();
     }
+    //How to add this file into tha main
 }
