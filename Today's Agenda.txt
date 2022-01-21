@@ -1,0 +1,165 @@
+
+Todays Agenda:
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+Software Engg.
+		1.Requirement Engg.
+		SRS
+
+		2.Design and Architectural Engg.
+			Characteritics of Good
+			Function oriented vs. Object Oriented Design
+			Object Oriented Analysis & Design
+			
+	Hands On----
+
+			your project SRS Document
+			Use case diagram------- UML (Unified Modeling Language)----object oriented notation
+			ER Diagrams -----------normalization
+					       denormalization
+					       Entities
+					       Entity Relationship
+					       DFD--Data Flow Diagram
+
+	Monday:
+
+
+	How to go about Softwar Development:
+		Methodology:
+				Agile methodology
+				Scrum
+				Sprint
+	Project management -----------Jira tool
+
+
+	Source Control management:
+		Github-----Code repository---tool
+
+
+	________________________________________________________________________________________________________________________________________________________________________________________________________________	
+
+1.Requirement Engg.
+		Requirements: (organize series of meeting with stakeholder,
+						understand existing business
+						understand bussiness process
+					        understand role and resposbilities of staff, vendors,customer
+				capture the information
+
+				from customer point  view ?
+				What your system should do?
+				from stakeholder point of view
+				
+				BRS:
+				    
+		Specification:
+				will contain information from technical teams point of view
+				Guidlines for creating the system
+			
+		 SRS for Online Shopping Portal:
+	
+				
+
+		 SRS: Who is accoutable for SRS	?  (Technical Document)
+		 	Software Architect-----System Analyst---SME with technical strength
+		 		
+			1.Scope------------------------objective of Online Shopping portal
+			2.Functional requirement-------What kind of functionality will be provided by system
+						     Which are business operations to be automated using
+						     IT System
+						     Use Cases:
+
+			3.NonFunctional requirement
+					Constraintants
+					Compatibility
+					Performance
+					MVP (Minimum viable Product)
+			4.DFD
+			5.ER Diagrams
+			6.UML Diagrams
+
+
+		
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+	Raw material for SRS document creation
+
+			Actors:
+				(Noun)
+				People  who are going to use system
+				End User
+				Shopper
+				Supplier
+				Shipping Vendor
+				BigBazzar Staff (Sales representative, managers)
+				BOD ( Board of Directors)
+			
+			Usecases:
+				  Modules------ ( reusable functionality unit)----Core
+					
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+	Identify following information from BRS
+
+	
+	
+		Users			Roles			Permissions							UseCases
+								  Do's/don't
+																(modules)
+		actors------- -----------will have role----------permisssion---------------------------------------------------functionalitles
+
+		enduer12-----------------Vistor-----------------view products							Product Catalog					
+								get product details
+								choose categories
+								can add ratings
+								can add commeent
+								Add product to shopping cart					ShoppingCart
+								remove product from shopping cart
+								View All items from Cart
+		ramakant-----------------Customer-------        View products
+								get product details
+								choose categories
+								can add ratings
+								can add commeent
+								Add product to shopping cart					CustomerRelationsManagement
+								remove product from shopping cart
+								View All items from Cart
+								can change his personal information maintained
+								can change his password
+								can place order							OroderProcessing
+								can cancel his placed order within 24 hours
+								access to previous orders history
+								change payment information
+								change residential Address as well as Delivery address
+								Can track order deivery
+
+
+		Nike brand---------------Shopper---										 Shipping
+		palande couriers---------Shipper
+		Ramesh Shinde(Sales)----Staff											 BI
+		Ravi Tambade-------------BOD
+
+
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+				   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
