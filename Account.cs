@@ -18,7 +18,7 @@ namespace Banking
             AccountHolder = null;
             bal = 0;
         }
-
+//explain this procedure ....mention comment after every step
         public Account(int AccountID, String AccountHolder, double bal)
         {
             this.AccountID = AccountID;
