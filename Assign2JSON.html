@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function f1() {
+            var str = '[{"empid":100,"name":"Shiksha","salary":60000,"deptno":10,"isManager":true,"contactno":[8956231245,4565987812]},\
+          { "empid": 200, "name": "Ashish", "salary": 70000, "deptno": 20, "isManager": false, "contactno": 895645122 }]';
+            var obj = JSON.parse(str);
+            for (i = 0; i < obj.length; i++) {
+
+                document.write("<br/>" + obj[i].empid);
+                document.write("<br/>" + obj[i].name);
+                document.write("<br/>" + obj[i].salary);
+                document.write("<br/>" + obj[i].deptno);
+                document.write("<br/>" + obj[i].isManager);
+                document.write("<br/>" + obj[i].contactno[0]);
+                document.write("<hr>");
+            }
+        }
+    </script>
+</head>
+
+<body onload="f1()">
+  <!--  <button id="btn">Get Records of Employee</button>
+    <div id="msg"></div>-->
+</body>
+</html>
