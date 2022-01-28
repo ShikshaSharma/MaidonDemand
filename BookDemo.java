@@ -44,5 +44,6 @@ public class BookDemo {
 		bk[i].display();
 		System.out.println(bk[i].CalCost());
 		}
+		//newly edited by swapnil
 	}
 }
