@@ -41,6 +41,11 @@ public class BookDemo {
 		{ bk[i]=new Paperbook(id, title, price);
 		
 		}
+//Modified by shiksha 
+//ravi sir
+////Bakul mam 
+/////
+/////
 		bk[i].display();
 		System.out.println(bk[i].CalCost());
 		}
